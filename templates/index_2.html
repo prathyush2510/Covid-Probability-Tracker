@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>COVID-19 Probability Detector</title>
+  </head>
+  <body>
+    <h1>COVID-19 Probability Detector</h1>
+
+
+    <div class="container">
+     <h2 class="text-center">Coronavirus Probability Detector</h2>
+
+    <form action="/" method="POST">
+  <div class="form-group">
+    <label for="fever">Enter Fever Value</label>
+    <input type="text" class="form-control" id="fever" name="fever" placeholder="Enter Fever Value">
+  </div>
+
+  <div class="form-group">
+    <label for="age">Enter Your Age</label>
+    <input type="text" class="form-control" id="age" name="age" placeholder="Enter Your Age">
+  </div>
+
+  <div class="form-group">
+    <label  for="bodypain">Body Pain</label>
+    <select class="custom-select" name="bodypain" id="bodypain">
+      <option value="0" >No Pain</option>
+      <option value="1">Severe Pain</option>
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label  for="runnyNose">Runny  Nose</label>
+    <select class="custom-select" name="runnyNose" id="runnyNose">
+      <option value="0">No</option>
+      <option value="1" >Yes</option>
+
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label  for="diffBreath">Breathing Difficulty</label>
+    <select class="custom-select" name="diffBreath" id="diffBreath">
+      <option value="-1" >No Difficulty</option>
+      <option value="0">Little Difficulty</option>
+      <option value="1">Severe Difficulty</option>
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label  for="contact">Contact with affected person</label>
+    <select class="custom-select" name="contact" id="contact">
+      <option value="0" >Don't know</option>
+      <option value="1">NO</option>
+      <option value="2">Yes</option>
+    </select>
+  </div>
+      <div class="form-group">
+    <label  for="drycough">Dry cough</label>
+    <select class="custom-select" name="drycough" id="drycough">
+      <option value="0">NO</option>
+      <option value="1">Yes</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="state">Enter Your State/Province</label>
+    <input type="text" class="form-control" id="state" name="state" placeholder="Enter Your State/Province">
+  </div>
+      <div class="form-group">
+    <label  for="diarrhoea">Diarrhoea</label>
+    <select class="custom-select" name="diarrhoea" id="diarrhoea">
+      <option value="0">NO</option>
+      <option value="1">Yes</option>
+    </select>
+  </div>
+
+
+      <div class="form-group">
+    <label  for="nasalcongestion">Nasal Congestion</label>
+    <select class="custom-select" name="nasalcongestion" id="nasalcongestion">
+      <option value="0">NO</option>
+      <option value="1">Yes</option>
+    </select>
+  </div>
+  <button class="btn btn-primary" > Submit </button>
+
+    </form>
+
+</div>
+
+
+    </body>
+</html>
